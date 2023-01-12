@@ -20,4 +20,4 @@ async def users_sql(_, msg: Message):
 @Client.on_message(filters.user(OWNER_ID) & filters.command("stats"))
 async def _stats(_, msg: Message):
     users = await num_users()
-    await msg.reply(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ ᴢᴇᴛsᴜ sᴛʀɪɴɢ:\n\n {users} ᴜsᴇʀs", quote=True)
+    await msg.reply(f"» ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ ᴊᴀʀᴇ sᴛʀɪɴɢ:\n\n {users} ᴜsᴇʀs", quote=True)
